@@ -7,3 +7,4 @@ const timestamp = new Date()
     .slice(0, 10)
     .replace(/-/g, '');
 export const authString = md5(`${PASSWORD}_${timestamp}`);
+console.log(authString);

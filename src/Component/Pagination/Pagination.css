@@ -45,7 +45,7 @@
     user-select: none;
 }
 .page-link_type_active {
-    background-color: #147373;
+    background-color: #a4283a;
     color: #ffffff;
 }
 
@@ -59,21 +59,23 @@
     user-select: none;
 }
 .page-link_type_larrow {
-    background: url(../../../Images/larrowpagin.svg) no-repeat;
+    background: url(../../assets/arrowpagin.svg) no-repeat;
+    transform: rotate(180deg);
 }
 .page-link_type_rarrow {
-    background: url(../../../Images/rarrowpagin.svg) no-repeat;
+    background: url(../../assets/arrowpagin.svg) no-repeat;
 }
 .page-link_type_larrow:hover {
-    background: url(../../../Images/larrowpaginHover.svg);
+    background: url(../../assets/arrowpaginHover.svg);
+    transform: rotate(180deg);
     transition: 0.2s;
 }
 .page-link_type_rarrow:hover {
-    background: url(../../../Images/rarrowpaginHover.svg);
+    background: url(../../assets/arrowpaginHover.svg);
     transition: 0.2s;
 }
 .page-link:not(.page-link_type_active):hover {
-    color: #147373;
+    color: #a4283a;
     background-color: white;
     transition: all 0.3s ease;
 }

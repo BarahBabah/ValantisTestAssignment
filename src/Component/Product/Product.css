@@ -1,0 +1,33 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    cursor: pointer;
+}
+.product__brand {
+    color: black;
+}
+.product__id {
+    margin: 0;
+    padding: 0;
+}
+.product__image {
+    max-width: 150px;
+}
+.product__price {
+    margin: 0;
+    padding: 0;
+    color: rgb(165, 40, 56);
+    font-size: 18px;
+}
+.product__title {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+}
