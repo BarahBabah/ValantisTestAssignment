@@ -1,5 +1,5 @@
 import md5 from 'md5';
-export const API_URL = 'http://api.valantis.store:40000';
+export const API_URL = 'https://api.valantis.store:41000';
 const PASSWORD = 'Valantis';
 
 const timestamp = new Date()
