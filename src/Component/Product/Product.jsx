@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './Product.css';
 import valantisImageNotFound from './../../assets/valantisImageNotFound.jpeg';
 
@@ -12,6 +13,16 @@ const Product = ({ product }) => {
             <img src={valantisImageNotFound} alt={product.product} />
         </li>
     );
+};
+
+Product.propTypes = {
+    product: PropTypes.shape({
+        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+            .isRequired,
+        product: PropTypes.string.isRequired,
+        brand: PropTypes.string,
+        price: PropTypes.number.isRequired,
+    }).isRequired,
 };
 
 export default Product;
